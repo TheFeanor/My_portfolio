@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My portfolio</title>
+</head>
+
+<body>
+    
+    <div id="transparent">
+
+    <!-- title -->
+    <h1 id="anchor2">Created by Volodymyr Tkachuk</h1>
+   
+    <!--main-menu-->
+    <div id=main-menu>
+        <button id="mainButton">Головне меню</button>
+        <button class="buttonHide">Професійні навики</button>
+        <button>Training app: irregular verbs</button>
+        <button>Training app: speed typing</button>
+        <button>Game: "Tom and Jerry"</button>
+        <button>English</button> 
+        <button>Хоббі</button>
+        <button>Контактна інформація</button>
+    </div>
+
+    <!--photo-->
+    <img src="images/IMG_1038_2.jpg" width="400">   
+
+    <!-- entername -->
+    <div class="entername">
+        <input id="placeholder" placeholder="Введіть своє ім'я тут =)" type="text" required>
+        <input id="submit" type="submit" value="Відправити">
+    </div>
+    
+    <!-- running line -->
+    <marquee behavior="" scrollamount="20" width=36.5%>
+        <h2 class="displaynone" id="helloStranger">Привіт, незнайомцю! Радий бачити тебе на своєму сайті :)</h2>
+    </marquee>
+
+    <!--paint-->
+    <h2 id="choosecolor">Обери колір та натисни мишкою на квадратик нижче ↓↓↓</h2>
+
+    <form>
+        <input type="radio" id="red" name="color" value="red" checked="checked"><span class="redtext">Red</span>
+        <input type="radio" id="green" name="color" value="rgb(6, 223, 6)"><span class="greentext">Green</span>
+        <input type="radio" id="blue" name="color" value="blue"><span class="bluetext">Blue</span>
+        <input type="radio" id="yellow" name="color" value="rgb(239, 255, 11)"><span class="yellowtext">Yellow</span>
+        <input type="radio" id="purple" name="color" value="rgb(199, 63, 253)"><span class="purpletext">Purple</span>
+    </form>
+
+    <canvas id="paint" width="600" height="350"></canvas>
+
+    <button id="clearbutton">Очистити дошку для малювання</button>
+
+
+    <!-- box-game -->
+    <div class="app">
+        <div class="app__header">
+          <h1 id="time-header">Час гри: <span id="time">5.0</span></h1>
+          <h1 id="result-header" class="hide">Ваш результат: <span id="result"></span></h1>
+        </div>
+        <div class="app__content">
+          <button class="btn" id="start">Почати</button>
+    
+          <div class="game" id="game"></div>
+        </div>
+        <div class="app__footer">
+          <div class="input">
+            <label for="game-time">Задати інтервал гри, (сек)</label>
+            <input type="number" id="game-time" min="5" step="1" value="5">
+          </div>
+        </div>
+      </div>
+
+    <!-- content -->
+    <h3><a href="#footer">Прогорнути вниз ↓↓↓</a></h3>
+    
+    <div class="whitebox">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse purus tellus, 
+        condimentum vel erat quis, consectetur placerat libero. Nullam et tincidunt sapien. Quisque nulla purus, 
+        congue ac purus sed, tincidunt elementum felis. In dictum orci in mauris porttitor, non sagittis sem elementum. 
+        Maecenas vulputate diam sed hendrerit pulvinar. Aliquam libero ante, auctor non lacus id, malesuada tristique dolor. 
+        Suspendisse potenti. Nullam dapibus vitae ipsum nec porta. Donec congue condimentum magna non sagittis. 
+        Nullam ac urna suscipit, lobortis risus in, porttitor ex. Sed mollis tortor sit amet lectus auctor, 
+        at egestas lectus dapibus. Vivamus sodales eget diam sed hendrerit. Duis semper ligula sed tortor pulvinar 
+        volutpat. Sed vel est venenatis, commodo odio consequat, congue velit. Mauris viverra dignissim magna eu mattis.
+    </div>
+
+    <div class="whitebox">
+        Mauris nec nibh ac libero varius laoreet sit amet quis lectus. Morbi eu velit ut purus egestas vestibulum eget 
+        ut lorem. Pellentesque ut metus in lorem eleifend condimentum non ac lacus. Quisque elementum consectetur lacinia. 
+        Duis et faucibus justo, volutpat euismod nisi. Proin maximus nec ligula at ultrices. Orci varius natoque penatibus 
+        et magnis dis parturient montes, nascetur ridiculus mus. Praesent dolor velit, egestas rhoncus ante non, vestibulum 
+        imperdiet velit. Praesent et nisi tincidunt, auctor nunc sit amet, tristique quam.
+    </div>
+    
+    <div class="whitebox">
+        Vivamus finibus feugiat laoreet. Nullam eu est lacus. Nullam efficitur non dui non eleifend. Aliquam aliquet commodo 
+        pellentesque. Sed in quam sapien. Nullam facilisis ipsum libero, id finibus magna suscipit at. Sed condimentum, 
+        enim non vestibulum aliquam, sapien sem luctus elit, porttitor consectetur justo neque vitae lacus. In dignissim 
+        eros nibh, a pretium mauris consequat ac. Proin non massa dignissim, interdum eros vitae, rhoncus nisi. Duis 
+        vulputate at diam vitae commodo. Duis consectetur ac mauris non porttitor. Nullam pharetra volutpat ipsum.
+    </div>
+    
+    <div class="whitebox">
+        Vivamus blandit leo augue, eget pharetra leo accumsan vitae. Pellentesque tincidunt quam ante, eget congue nulla 
+        accumsan a. Quisque volutpat augue quis dui malesuada aliquet. Aliquam posuere, massa sed blandit scelerisque, risus 
+        lacus semper urna, nec lacinia purus neque sit amet ligula. Pellentesque efficitur vitae eros at dignissim. Vivamus 
+        in suscipit eros. Sed rhoncus tristique tincidunt. Donec consequat facilisis tempus. Vivamus luctus dui quis urna 
+        auctor consectetur. Nullam tristique arcu nibh, eget tempor dui semper eget. Sed nec volutpat enim.
+    </div>
+    
+    <div class="whitebox">
+        Duis eu risus non orci euismod pellentesque. Sed in purus accumsan sapien tincidunt lobortis nec sit amet lorem. 
+        Mauris facilisis vitae risus et tincidunt. Vivamus feugiat faucibus risus, sed mollis ipsum posuere eget. Morbi 
+        sit amet dolor orci. Aenean ullamcorper nisl felis, quis blandit nisl ornare vitae. Donec a fermentum elit, nec 
+        molestie dui. Curabitur eget elit massa. Donec iaculis mi vitae massa luctus placerat. Nam ante purus, accumsan 
+        in laoreet a, laoreet varius nisl. In maximus vel risus sit amet pharetra. Suspendisse mollis interdum felis vel 
+        faucibus.
+    </div>
+
+    <hr>
+
+    <!--footer-->
+    <h3><a href="#anchor2">Прогорнути вверх ↑↑↑</a></h3>
+    
+    <p id="footer">(с) автор, Володимир Ткачук</p>
+
+    
+
+</div>
+
+<script src="script.js" type="text/javascript"></script>
+
+</body>
+
+</html>
